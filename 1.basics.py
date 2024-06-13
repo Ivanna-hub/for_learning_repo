@@ -3,7 +3,7 @@
 # importing Random module for being able to use random.sample() function:
 import random
 # creating a list using random.sample() function:
-random_list = random.sample(range(0,1000),5)
+random_list = random.sample(range(0,1000),100)
 # printing results:
 print('the random list is: ' + str(random_list))
 
